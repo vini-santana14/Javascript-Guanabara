@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa..</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Meu primeiro parágrafo</p>
+</body>
+<script>
+    var n1 = Number(window.prompt('Digite um numero: ')) //string
+    var n2 = Number(window.prompt('Digite um numero: ')) //string
+    var s = n1 + n2
+    window.alert('a soma dos valores é: ' + s) //concatenação
+    //(number + number) para adicao
+    //(string + string) para concatenação
+
+    /* converção de string para inteiro ou flutuante
+    Number.parseInt(n) *lembrando que as letras maisculas sao importantes
+    Number.parseFloat(n)
+
+    Number(n) *Esse number ele deixa com que o JS decida qual tipo de dado é
+    */
+
+   //de numero para string= String(n) ou n.toString(n)
+
+   // PLACEHOLDER = ${}
+   // TEMPLATE STRINGS = ´o aluno ${nome} com idade ${}´
+   // s.length quantas caracteres tem a string
+   // s.toUpperCase() letra maisculas
+   // s.toLowerCase() Letra minisculas
+</script>
+</html>
