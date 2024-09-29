@@ -5,3 +5,5 @@ if (país == 'Brasil') {
 } else {
     console.log('Você é Estrangeiro!')
 }
+
+// -------------------- CONDIÇÃO COMPOSTA
