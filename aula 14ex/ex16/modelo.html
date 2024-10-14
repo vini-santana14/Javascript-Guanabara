@@ -11,22 +11,15 @@
         <h1>Título</h1>
     </header>
     <section>
-        <div>
-            <label for="inicio">inicio: 
-                <input type="number" name="inicio" id="iinicio">
-            </label>
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
-            <label for="fim">Fim: 
-                <input type="number" name="fim" id="ifim">
-            </label>
+        <div id="res">
+            Preparando a contagem...
         </div>
-        <div>
-            <label for="passo">Passo: 
-                <input type="number" name="passo" id="ipasso">
-            </label>
-        </div>
-        <button type="submit" onclick="contar()">Contar</button>
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
